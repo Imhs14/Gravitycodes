@@ -20,4 +20,4 @@ unique_scores = sorted(list(set(arr)))
 
 #The runner-up is the second to lastment in the sorted unique Vist
 
-print (unique_scores[-2])
+print(unique_scores[-2])
