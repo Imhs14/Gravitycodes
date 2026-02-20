@@ -6,7 +6,7 @@ Input Format
 The first line contains . The second line contains an array A[ ]  of n integers each separated by a space.
 """
 
-n = int(input())
+n = int(input(""))
 
 #1. Convert map to a list so we can work with it
 
