@@ -5,7 +5,7 @@ for all non-negative integers i<n, print i^2.
 """
 n = int(input(""))
 i = 0
-while i<n:
+while i<n+1:
     print(i*i)
     i += 1
 
