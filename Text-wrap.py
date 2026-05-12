@@ -10,3 +10,15 @@ if __name__ == '__main__':
     string, max_width = input() , int(input())
     result = wrap(string,max_width)
     print(result)
+
+""" 
+I/P :
+ASDGFGSFSADFSVDFV
+4
+O/P :
+ASDG
+FGSF
+SADF
+SVDF
+V
+"""
