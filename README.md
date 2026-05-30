@@ -5,9 +5,9 @@ Welcome to **Gravitycodes**! This repository is a curated collection of Python-d
 ---
 
 ## 🛠️ Built With
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![HackerRank](https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Imhs14)
+[![HackerRank](https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/domains/python)
 
 ---
 
@@ -28,12 +28,14 @@ Here are some of the key logical milestones implemented in this repository. Clic
 </details>
 
 <details>
-<summary><b>🔹 Challenge X: Next Feature Name Here</b></summary>
+<summary><b>🔹 Challenge 26: Capitalize</b></summary>
 <br>
 
-- **Objective:** Add short brief here.
-- **Key Concepts Used:** Concept 1, Concept 2.
-- **Source Code:** [Link to file](./)
+- **Objective:** Capitalize the first letter of each word in a string while strictly preserving custom or irregular spacing.
+- **Key Concepts Used:** - Single-space explicit tokenization using `.split(' ')`.
+  - Character casing normalization via `.capitalize()`.
+  - Array recombination via `' '.join()`.
+- **Source Code:** [26-Capitalize.py](./26-Capitalize.py)
 </details>
 
 ---
@@ -44,16 +46,6 @@ Here are some of the key logical milestones implemented in this repository. Clic
 - [x] Algorithmic mathematical patterns (Rangoli, Triangles)
 - [ ] Core Data Structures (Stacks, Queues, Linked Lists)
 - [ ] Complexity optimization mapping ($O(N)$ runtime targets)
-
----
-
-## 💼 Actively Seeking Opportunities!
-
-I am currently open to **Internships and Entry-Level Full-Time Roles** in Software Engineering, Backend Development, or Data Roles.
-
-If your team is looking for a dedicated engineer with solid analytical skills, structured coding habits, and a passion for automation, **I would love to connect with you!**
-
-💬 **Let's Talk:** Please feel free to open an issue here, connect with me via my profile, or text me directly via DM/LinkedIn. 
 
 ---
 
