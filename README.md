@@ -5,10 +5,9 @@ Welcome to **Gravitycodes**! This repository is a curated collection of Python-d
 ---
 
 ## 🛠️ Built With
-![Python]https://www.python.org/static/community_logos/python-logo-master-v3-TM.png
-
-![Git](https://github.com/Imhs14)
-![HackerRank](https://www.hackerrank.com/profile/heerashanker0214)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![HackerRank](https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)
 
 ---
 
