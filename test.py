@@ -1,7 +1,12 @@
-s = input('')
-b = s.split()
-lst = []
-for i in range(len(b)):
-    lst.append(b[i].capitalize())
+string ='AABCAAADA'
+k = 3
+mset= set()
+for i in range(0, len(string), k):
+    chunk = string[i:i+k]
+    print(f"chunk:{chunk}")
 
-print(' '.join(lst))
+    mset = set()
+    for char in chunk:
+        if char not in mset:
+            mset.add(char)
+    print(f"Result: {''.join(mset)}")
