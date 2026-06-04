@@ -1,12 +1,20 @@
-from fractions import Fraction
-from functools import reduce
-def product(fracs):
-    result = reduce(lambda x, y : x*y, fracs)
-    return (result.numerator, result. denominator)
+import math
+import os
+import random
+import re
+import sys
+
+def missingCharacters(s):
+    # Write your code here
+    
 
 if __name__ == '__main__':
-    fracs = []
-    for _ in range(int(input())):
-        fracs.append(Fraction(*map(int, input().split())))
-    result = product(fracs)
-    print(*result)
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    s = input()
+
+    result = missingCharacters(s)
+
+    fptr.write(result + '\n')
+
+    fptr.close()
