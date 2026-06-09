@@ -1,4 +1,4 @@
-cube = lambda x: x*x*x, fib_list# complete the lambda function 
+cube = lambda x: x*x*x # complete the lambda function 
 
 def fibonacci(n):
     # return a list of fibonacci numbers
@@ -8,7 +8,9 @@ def fibonacci(n):
     for i in range(n):
         fib_list.append(prev)
         prev, cur = cur, prev + cur
-        print(cube)
+
+    return fib_list
+
 if __name__ == '__main__':
     n = int(input())
     print(list(map(cube, fibonacci(n))))
