@@ -1,7 +1,8 @@
 from fractions import Fraction
 from functools import reduce
-
-
+def product(fracs):
+    result = reduce( lambda x, y : x*y, fracs )
+    return (result.numerator, result.denominator)
 
 
 if __name__ == '__main__':
