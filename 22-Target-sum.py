@@ -5,9 +5,10 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-    num = list(input())
-    target = int(input())
-
-
-        print()
-        # needs to be solved
+        seen = {nums[0] : 0}
+        for i in range(1, len(nums)):
+            a = target - nums[i]
+            if a in seen.keys() and i != seen[a]:
+                return [seen[a], i]
+            
+            seen[nums[i]] = i
